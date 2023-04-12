@@ -1,0 +1,233 @@
+.body {
+    background-color: #FEFEFE;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.cover img {
+    position: absolute;
+    display: inline;
+    vertical-align: top;
+    clear: both;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        text-align: center;
+
+    }
+
+    .cover img {
+        display: none;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        background: url(images/responsive1111.png);
+        padding: 10px;
+    }
+
+    .intro h1,
+    h3 {
+        margin: 10px;
+        padding: 1% 2%;
+
+    }
+
+    .intro p {
+        font-size: 0.98em;
+
+    }
+
+    .form-box h2,
+    h3 {
+        text-align: center;
+    }
+
+    .form-box h2 {
+        margin: 0px 20px;
+    }
+
+    .form-box form {
+        text-align: center;
+    }
+
+    .d-container {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .me img {
+        float: right;
+    }
+
+
+
+}
+
+.intro h1 {
+    text-align: center;
+    background-color: black;
+    color: #E9E9E9;
+    width: 50%;
+    padding: 10px;
+    border: solid 1px white;
+    margin-left: 20px;
+}
+
+.intro h3 {
+    text-align: center;
+    background-color: #E9E9E9;
+    color: black;
+    width: 86%;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.intro hr {
+    width: 30px;
+}
+
+.intro {
+    padding: 1%;
+}
+
+.intro p {
+    text-decoration: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    width: 85%;
+    margin-left: 30px;
+
+}
+
+
+.form-box {
+    padding: 3%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.form-box input {
+    padding: 10px 5px;
+}
+
+.form-box form {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-form a {
+    text-decoration: none;
+}
+
+.form-form button {
+    background-color: red;
+    color: white;
+    padding: 10px 60px;
+    margin-top: 15px;
+}
+
+.d-c-headline h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #E9E9E9;
+
+}
+
+.d-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 50px;
+}
+
+
+.d-container i {
+    font-size: 4em;
+    color: rgb(91, 182, 0);
+
+}
+
+.d-container p {
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.company {
+    background-color: rgb(146, 206, 86);
+    padding: 25px;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    text-decoration: justify;
+    font-weight: bold;
+}
+
+.company h2 {
+    text-align: right;
+    padding: 10px;
+    background-color: #E9E9E9;
+    width: 50%;
+    border: solid 1px black;
+    text-align: center;
+}
+
+
+.me {
+    display: block;
+    padding: 20px;
+    background-color: #E9E9E9;
+    text-align: center;
+    text-decoration: justify;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.me hr {
+    width: 70px;
+}
+
+.me img {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
